@@ -6,21 +6,21 @@
  *
  * Return: Always 0 (Success)
  */
+
 int main(void)
 {
 	int c = 'a';
 	int ch = 'A';
 
-	while ( c <= 'z')
+	while (c <= 'z')
 	{
 		putchar(c);
 		c++;
 	}
-	while ( ch <= 'Z')
+	while (ch <= 'Z')
 	{
 		putchar(ch);
 		ch++;
 	}
 	putchar('\n');
-	return (0);
-}
+	return (0);}
