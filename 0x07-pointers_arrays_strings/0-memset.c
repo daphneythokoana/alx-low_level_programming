@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * _memset - ills memory with a constant byte
- * @s: pointer to the memory area 
+ * _memset - fills memory with a constant byte
+ * @s: pointer to the memory area
  * @b: the character to fill the memory area
  * @n: numbr of bytes t be filled
  * description_memset: overe there
