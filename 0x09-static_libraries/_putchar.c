@@ -1,15 +1,11 @@
 #include "main.h"
-#include <unistd.h>
+#include  <stdio.h>
+#include <stdlib.h>
+#include <ctype.h>
+#include <string.h>
 
-/**
- * _putchar - write the charaters c to stdout
- * @c: The charaters to print 
- *
- * Return: On success 1
- * On error, -1 is returned, errno is set appropriately
- */
 
 int _putchar(char c)
 {
-	return (write(1, &c, 1));
+	return putchar(c);
 }
