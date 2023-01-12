@@ -28,8 +28,8 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	len = 0;
 	for (index = 0; s1[index]; index++)
 		concat[len++] = s1[index];
-	for (index = 0; s[index] && < n; index++)
+	for (index = 0; s2[index] && index < n; index++)
 		concat[len++] = s2[index];
-	contact[len] = '\0';
+	concat[len] = '\0';
 	return (concat);
 }
